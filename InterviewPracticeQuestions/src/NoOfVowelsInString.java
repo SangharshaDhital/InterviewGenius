@@ -7,7 +7,7 @@ public class NoOfVowelsInString {
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter a String:");
 		 int count=0 ,na=0, ne=0, ni=0,no=0, nu=0;
-	 String s=input.next().toLowerCase();
+	    String s=input.next().toLowerCase();
 	 for(int i=0;i<s.length();i++) {
 		
 		 
@@ -32,9 +32,7 @@ public class NoOfVowelsInString {
 			 count++; 
 			 nu++;
 		 }
-			
-		 
-		 
+		  
 	 }
 	 System.out.println(s+" Contains '"+count+"' Vowels ");
 	 System.out.println("a = "+na+"\ne = "+ne+"\ni = "+ni+"\no = "+no+"\nu = "+nu);
